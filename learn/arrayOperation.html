@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数组操作</title>
+</head>
+<body>
+    <script type="text/javascript">
+        //数组去重
+        var str = [1,1,12,3,3,3,4,5,6,6,6,7,7,7,]
+        console.log(str)
+        var tem = []
+        for(i=0;i<str.length;i++){
+            if(tem.indexOf(str[i]) == -1){
+                tem.push(str[i]);
+            }
+        }
+        console.log(tem)
+    </script>
+</body>
+</html>
